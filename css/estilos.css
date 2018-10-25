@@ -119,7 +119,7 @@ a:hover {
   margin-left: 10px;
 }
 
-/** Menu **/
+/** Navegacion interna **/
 #menu ul li {
   display: inline-block;
   text-align: center;
@@ -143,7 +143,7 @@ a:hover {
   padding: 5px;
 }
 
-/* Banner */
+/* Banner Presentacion */
 
 #banner{
   width: 100%;
@@ -167,7 +167,7 @@ a:hover {
   text-align: center;
 }
 
-/* Discos*/
+/* Seleccion de discos */
 #discos {
   padding: 60px 0;
   background-color: #333333;
@@ -195,7 +195,7 @@ a:hover {
   padding: 5px 15px 0;
 }
 
-/* Media */
+/* Banner Media Promo */
 #media{
   color: white;
   font-size: 30px;
@@ -385,7 +385,7 @@ a:hover {
   float: left;
 }
 
-/*Disco Rankeados*/
+/* Discos Rankeados */
 #raninkg-discos h2{
   border-bottom: 1px solid;
   padding-bottom: 5px;
