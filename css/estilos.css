@@ -29,8 +29,21 @@ h2 {
   font-family: 'Bitter', Baskerville, serif;
 }
 
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
 .lectura h2,
-aside h2 {
+aside h2,
+aside h3 {
   padding-bottom: 5px;
   border-bottom: 1px solid;
   margin-bottom: 15px;
@@ -40,6 +53,10 @@ a {
   color: #00AE68;
   cursor: pointer;
   text-decoration: none;
+}
+
+p {
+  margin-bottom: 15px;
 }
 
 p a {
@@ -54,6 +71,7 @@ a:hover {
 .contenedor {
   margin: auto;
   max-width: 1200px;
+  overflow: hidden;
 }
 
 .fila {
@@ -225,31 +243,153 @@ a:hover {
 }
 
 /* Pie pagina */
-#redes {
-  height: 50px;
-}
-
 #pie-pagina {
   background-color: #0a0a0a;
+  padding: 20px 0;
+  overflow: hidden;
 }
 
-#pie-pagina p {
-  text-align: left;
+#informacion {
+  float: left;
 }
 
-#redes ul li {
+#informacion .logo-imagen,
+#informacion section {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#informacion .logo-imagen {
+  height: 20px;
+  margin-right: 10px;
+}
+
+#redes {
+  height: 50px;
+  float: right;
+}
+
+.links-sociales li {
   width: 25px;
   display: inline-block;
   float: right;
+  margin: 0  5px;
   vertical-align: middle;
 }
 
-.bandainfo figure, .bandainfo #datos{
-  float: left;
-  width: 400px;
+.links-sociales li img {
+  display: block;
+  width: 30px;
 }
 
-.bandainfo #texto-des, .bandainfo #lista-canciones{
-  float: right;
-  width: 800px;
+.links-sociales a {
+  border-radius: 50%;
+  border: 2px solid #0a0a0a;
+  display: block;
+  height: 30px;
+  width: 30px;
+}
+
+#redes ul li a:hover {
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+
+/* Pagina - Disco */
+/* > Disco Articulo < */
+#disco-articulo-derecha,
+#disco-articulo-izquierda {
+  float: left;
+}
+
+#disco-articulo-izquierda {
+  width: 80%;
+  padding-bottom: 30px;
+}
+
+#disco-articulo-derecha {
+  width: 20%;
+  background-color: #333333;
+  padding: 15px;
+}
+
+#disco-articulo #banner {
+  background-image: url('../imagenes/banners/44banner.jpg');
+}
+
+#disco-portada-datos {
+  float: left;
+  width: 25%;
+}
+
+#datos {
+  background-color: #0a0a0a;
+  padding: 25px;
+}
+
+#disco-articulo .lectura {
+  float: left;
+  width: 75%;
+  border-left: 1px solid;
+}
+
+#lista-canciones {
+  border-top: 1px solid #000000;
+  margin-top: 35px;
+  padding: 15px 0;
+}
+
+#lista-canciones li {
+  border-bottom: 1px solid #cccccc;
+  margin-left: 20px;
+  max-width: 300px;
+  padding: 5px;
+}
+
+/* Nuevo */
+#nuevo {
+  overflow: hidden;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 80px 0;
+}
+
+#nuevo h2 {
+  font-size: 32px;
+}
+
+#nuevo-portada {
+  width: 30%;
+  margin-right: 20px;
+  float: left;
+}
+
+#nuevo footer {
+  padding-top: 20px;
+  clear: both;
+}
+
+#nuevo footer .links-sociales {
+  float: left;
+}
+
+/*Disco Rankeados*/
+#raninkg-discos h2{
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+#lista-discos li{
+  margin: 0 0 15px 15px;
+}
+
+#lista-discos figure {
+  max-width: 50px;
+  margin-right: 10px;
+}
+
+#lista-discos figure,
+#lista-discos .disco-rankeado-titulo {
+  display: inline-block;
+  vertical-align: top;
 }
