@@ -401,6 +401,11 @@ a:hover {
   margin-right: 10px;
 }
 
+#lista-discos .disco-rankeado-titulo {
+  font-size: 14px;
+  font-weight: normal;
+}
+
 #lista-discos figure,
 #lista-discos .disco-rankeado-titulo {
   float: left;
