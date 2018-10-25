@@ -1,0 +1,255 @@
+/* Miscelaneo */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Rosario', Trebuchet MS, Arial, sans-serif;
+  font-size: 14px;
+}
+
+section,
+nav,
+article,
+aside,
+footer {
+  display: block;
+}
+
+img {
+  max-width: 100%
+}
+
+h1,
+h2 {
+  font-family: 'Bitter', Baskerville, serif;
+}
+
+.lectura h2,
+aside h2 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
+  margin-bottom: 15px;
+}
+
+a {
+  color: #00AE68;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #FF4C00;
+  text-decoration: underline;
+}
+
+.contenedor {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.fila {
+  margin-left: -15px;
+  margin-right: -15px;
+  overflow: hidden;
+}
+
+.lectura {
+  background: #ffffff;
+  color: #000000;
+  padding: 25px;
+}
+
+/* Cabezal */
+#cabezal {
+  background-color: #1e1e1e;
+  border-top: 2px dotted #000000;
+  padding: 15px 0;
+}
+
+/** Logo **/
+#logo{
+  text-align: left;
+}
+
+#logo .logo-imagen{
+  height: 40px;
+}
+
+.logo-texto,
+.logo-imagen {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo-texto {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+/** Menu **/
+#menu ul li {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 236px;
+}
+
+#menu ul li a {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+/** Buscador **/
+#buscador form {
+  float: right;
+}
+
+#buscador form input {
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/* Banner */
+
+#banner{
+  width: 100%;
+  height: 450px;
+  padding: 350px 0 0;
+  opacity: 0.8;
+  background: url("../imagenes/banners/banner2.jpg") center -450px no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border-bottom: 5px solid #d3d3d3;
+  text-align: center;
+}
+
+#banner .logo-texto {
+  background-color: #00AE68;
+  border-bottom: 10px solid #00693F;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 32px;
+  padding: 10px 150px;
+  text-align: center;
+}
+
+/* Discos*/
+#discos {
+  padding: 60px 0;
+  background-color: #333333;
+}
+
+.disco {
+  float: left;
+  margin: 0.5%;
+  width: 24%;
+  overflow: hidden;
+  background-color: #1e1e1e;
+  color: white;
+  padding-bottom: 15px;
+}
+
+.disco-titulo{
+  font-size: 18px;
+}
+
+.disco-titulo,
+.disco-resumen {
+  padding: 5px 15px;
+}
+
+/* Media */
+#media{
+  color: white;
+  font-size: 30px;
+  padding: 180px 0;
+  background: url("../imagenes/banners/adtrbanner.png") center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#media .contenedor {
+  background: #000000;
+  padding: 15px;
+}
+
+#media .media-link {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+/* Seleccionados */
+#seleccionados {
+  background: #1e1e1e;
+  padding: 20px 0;
+}
+
+/** Disco elegido **/
+#disco-elegido{
+  margin-top:  30px;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+#disco-elegido figure,
+#disco-elegido .lectura{
+  float: left;
+  width: 40%;
+  height: 450px;
+}
+
+#disco-elegido section ul li img{
+  width: 100px;
+}
+
+#disco-elegido aside{
+  background-color: #0a0a0a;
+  float: right;
+  padding: 25px;
+  width: 20%;
+  height: 400px;
+}
+
+#disco-elegido aside ol {
+  padding-left: 20px;
+}
+
+/* Pie pagina */
+#redes {
+  height: 50px;
+}
+
+#pie-pagina {
+  background-color: #0a0a0a;
+}
+
+#pie-pagina p {
+  text-align: left;
+}
+
+#redes ul li {
+  width: 25px;
+  display: inline-block;
+  float: right;
+  vertical-align: middle;
+}
+
+.bandainfo figure, .bandainfo #datos{
+  float: left;
+  width: 400px;
+}
+
+.bandainfo #texto-des, .bandainfo #lista-canciones{
+  float: right;
+  width: 800px;
+}
