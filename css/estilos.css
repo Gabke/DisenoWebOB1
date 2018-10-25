@@ -75,8 +75,8 @@ a:hover {
 }
 
 .fila {
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: -5px;
+  margin-right: -5px;
   overflow: hidden;
 }
 
@@ -180,11 +180,14 @@ a:hover {
 
 .disco-titulo{
   font-size: 18px;
+  font-weight: normal;
+  height: 50px;
+  margin-bottom: 5px;
 }
 
 .disco-titulo,
 .disco-resumen {
-  padding: 5px 15px;
+  padding: 5px 15px 0;
 }
 
 /* Media */
@@ -379,8 +382,14 @@ a:hover {
   padding-bottom: 5px;
   margin-bottom: 15px;
 }
+
 #lista-discos li{
-  margin: 0 0 15px 15px;
+  margin: 0 0 15px 20px;
+}
+
+#lista-discos li a {
+  display: block;
+  max-width: 130px;
 }
 
 #lista-discos figure {
@@ -390,6 +399,9 @@ a:hover {
 
 #lista-discos figure,
 #lista-discos .disco-rankeado-titulo {
-  display: inline-block;
-  vertical-align: top;
+  float: left;
+}
+
+.disco-rankeado {
+  overflow: hidden;
 }
