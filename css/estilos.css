@@ -98,6 +98,10 @@ a:hover {
   text-align: left;
 }
 
+#logo a:hover {
+  text-decoration: none;
+}
+
 #logo .logo-imagen{
   height: 40px;
 }
