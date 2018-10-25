@@ -42,6 +42,7 @@ h3 {
 }
 
 .lectura h2,
+.lectura h3,
 aside h2,
 aside h3 {
   padding-bottom: 5px;
@@ -327,6 +328,10 @@ a:hover {
 #disco-portada-datos {
   float: left;
   width: 25%;
+}
+
+#bandainfo h2 {
+  margin-bottom: 20px;
 }
 
 #datos {
